@@ -452,8 +452,7 @@ ColorParula = parula;
 
 
 % low frequencies to delete as they anyway will not be able to contribute
-% to any significant behavioral relationship (is this really true?? and
-% which frequency to use??)
+% to any significant behavioral relationship 
 ToDeleteFreq = max(HistogramAllUnitsSorted(:,abs(Before/BinSize)+(-2.5/BinSize)+1:abs(Before/BinSize)+(+2.5/BinSize)), [], 2)>FreqCutOff;
 NeuronsContributingLever = sum(ToDeleteFreq);
 NeuronsContributingLeverNames = LeverSpikeNamesAllSorted(ToDeleteFreq,:);

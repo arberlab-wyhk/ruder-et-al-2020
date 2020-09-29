@@ -6,7 +6,7 @@ List of scripts:
 
 	
 Ephys.m allows for the extraction of the neuronal spiking data in the behaviour relevant time windows from the spiking data of all the neurons 
-recorded from all the animals arranged in a data structure of the form of Animal<(x)>_<(y)> -> Session <(l)>_<(m)> -> Tasks <i.e. PelletReaching, OpenField, LeverPressing> 
+recorded from all the animals arranged in a data structure called PCRt_recordings of the form of Animal<(x)>_<(y)> -> Session <(l)>_<(m)> -> Tasks <i.e. PelletReaching, OpenField, LeverPressing> 
 ->Time points of behaviors and spiking data obtained from NeuroExplorer <SPK<rs>>
 <x> and <y> indicate the animal IDs, <l> and <m> session IDs (which matched the depth of the probe)
 The arguments passed to the fuction are the time window before and after the relevant behavior time point to define the window of behavior relevant neuronal activity to be 

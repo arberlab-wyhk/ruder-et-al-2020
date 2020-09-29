@@ -1,4 +1,4 @@
-function Results = EPhys_Directional(Before, After, BinSize, Alignment, FreqCutOff, TimesStd, Plotting, LoadingSelect)
+function Results = Ephys_Directional(Before, After, BinSize, Alignment, FreqCutOff, TimesStd, Plotting, LoadingSelect)
 
 % load fileName Matlab structure that follows the following organization:
 % Animals --> Sessions --> Behaviors --> individual Spike Times +
